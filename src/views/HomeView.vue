@@ -15,3 +15,6 @@ export default {
   }
 }
 </script>
+<style src="../assets/css/home.css" scoped>
+
+</style>

@@ -15,11 +15,29 @@
     list-style: none;
     gap: 20px;
 
+
+}
+.header ul li{
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+    padding:0 15px;
 }
 .header a{
     color: white;
     text-decoration: none;
 }
 .logo h1{
-    font-size: 45px;
-  }
+    font-size: 35px;
+}
+.logo span{
+    color: var(--primary-color);
+    font-weight: 800;
+}
+.donate-btn{
+    background-color: var(--primary-color);
+    padding: 15px 25px;
+    border-radius: 100px;
+    color: var(--white);
+    font-weight: 700;
+    transition: all 0.3s ease-in-out;
+}

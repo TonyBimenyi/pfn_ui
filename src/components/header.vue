@@ -19,7 +19,7 @@
         </li>
       </ul>
     </nav>
-    <a href="#" class="donate-btn">Donate Now</a>
+    <a href="#" class="donate-btn">Donate Now <i class="fas fa-heart"></i> <!-- Solid heart icon --></a>
   </header>
 </template>
 <style src="../assets/css/header.css" scoped>

@@ -1,0 +1,25 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: var(--primary-color); */
+    z-index: 1;
+    position:sticky;
+    color: var(--white);
+    padding: 30px 250px;
+    border-bottom: 0.1px solid var(--white);
+}
+.header ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+
+}
+.header a{
+    color: white;
+    text-decoration: none;
+}
+.logo h1{
+    font-size: 45px;
+  }

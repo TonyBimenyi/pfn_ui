@@ -43,14 +43,17 @@
       </div>
     </div>
     <about-us></about-us>
+    <worship></worship>
   </div>
 </template>
 
 <script>
 import aboutUs from '../components/about.vue';
+import worship from '../components/worship.vue';
 export default {
   components: {
-    aboutUs
+    aboutUs,
+    worship,
   },
   methods: {
     scrollToNextSection() {

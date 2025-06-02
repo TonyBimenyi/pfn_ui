@@ -2,10 +2,10 @@
     <div class="about_container">
         <div class="left_part">
             <div class="img1">
-                <img src="../assets/images/hero-bg.jpg" alt="">
+                <!-- <img src="../assets/images/hero-bg.jpg" alt=""> -->
             </div>
             <div class="img2">
-                <img src="../assets/images/hero-bg.jpg" alt="">
+                <!-- <img src="../assets/images/hero-bg.jpg" alt=""> -->
             </div>
         </div>
         <div class="right_part">
@@ -28,16 +28,29 @@
                 <div class="left_part_icons">
                     <div class="text-icon-container">
                         <i class="fas fa-arrow-right"></i>
-                        <span>ABOUT US</span>        
+                        <span>Share God's Love</span>        
+                    </div>
+                    <div class="text-icon-container">
+                        <i class="fas fa-arrow-right"></i>
+                        <span>Serve Our Community</span>        
                     </div>
                 </div>
                 <div class="right_part_icons">
                      <div class="text-icon-container">
                         <i class="fas fa-arrow-right"></i>
-                        <span>ABOUT US</span>        
+                        <span>Foster spiritual growth</span>        
                     </div>
+                    <div class="text-icon-container">
+                        <i class="fas fa-arrow-right"></i>
+                        <span>Build strong relationships</span>        
+                    </div>
+
                 </div>
+ 
             </div>
+                               <div class="btn_about">
+                        <button>Read more about us <i class="fas fa-heart"></i></button>
+                    </div>
             
         </div>
     </div>

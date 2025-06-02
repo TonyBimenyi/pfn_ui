@@ -2,14 +2,36 @@
     
     display: flex;
     justify-content: center;
-    margin: 50px 250px;
-    gap: 50px;
+    margin: 120px 250px;
+    gap: 100px;
 }
-.left_part .img1 img{
-    height: 400px;
+.left_part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 20px;
+    /* width: 60%; */
 }
-.left_part .img2 img{
+.left_part .img1{
+    height: 500px;
+    width: 400px;
+    background: red;
+    border-radius: 0px 0px 100px 0px;
+    position: relative;
+    /* margin-top: 150px; */
+    margin-bottom: 120px;
+}
+.left_part .img2{
     height: 400px;
+    width: 350px;
+    background: yellow;
+    border-radius: 0px 0px 100px 0px;
+    position: relative;
+    margin-left: 250px;
+    margin-top: -750px;
+    box-sizing: border-box;
+    border:10px solid var(--white);
 }
     /* Container for text and icon */
     .text-icon-container {
@@ -50,3 +72,62 @@
       .title_about span{
         color: var(--primary-color);
       }
+      .icons_about {
+        display: flex;
+        /* justify-content: center; */
+        gap: 100px;
+        margin-top: 70px;
+      }
+      .icons_about .text-icon-container{
+        margin-bottom: 30px;
+      }
+      .icons_about .text-icon-container i{
+        color: var(--primary-color);
+        background-color: var(--accent-color);
+        padding: 10px;
+        border-radius: 100px;
+      }
+      .icons_about .text-icon-container i:hover{
+        color: var(--white);
+        background-color: var(--primary-color);
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+      }
+      .icons_about .text-icon-container span{
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: capitalize;
+      }
+        .btn_about{
+            display: flex;
+            justify-content: flex-start;
+            align-items: left;
+            margin-top: 20px;
+
+        }
+
+      .btn_about button{
+        background-color: var(--primary-color);
+        padding: 8px 20px;
+        border-radius: 100px;
+        color: var(--white);
+        font-weight: 700;
+        transition: all 0.3s ease-in-out;
+        border: none;
+        font-size: 15px;
+        cursor: pointer;
+        /* margin-left: -100px; */
+        text-transform: capitalize;
+      }
+      .btn_about i{
+        color: var(--primary-color);
+        background-color: var(--white);
+        padding:8px;
+        margin-left: 20px;
+        border-radius: 100px;
+      }
+      .btn_about button:hover{
+        background-color: var(--secondary-color);
+        /* color: var(--primary-color); */
+      }
+     

@@ -123,3 +123,42 @@
     transform: translateX(-50%); /* Move half the width to loop seamlessly */
   }
 }
+
+/* Scroll Down Button */
+.home_container .title .scroll-down {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+}
+
+.home_container .title .scroll-down button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 30px; /* Larger icon for better visibility */
+  color: var(--white);
+  transition: color 0.3s ease-in-out;
+}
+
+.home_container .title .scroll-down button:hover {
+  color: var(--secondary-color);
+}
+
+.home_container .title .scroll-down i {
+  animation: bounce 1.5s infinite; /* Faster and infinite bounce */
+}
+
+/* Bouncing Animation Keyframes */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-15px); /* More pronounced bounce */
+  }
+  60% {
+    transform: translateY(-7px); /* Smoother return */
+}
+}

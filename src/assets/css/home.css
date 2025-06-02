@@ -97,6 +97,11 @@
   padding: 25px 0; /* Vertical padding for aesthetics */
 
 }
+.marquee_txt img{
+  width: 100%;
+  max-width: 30px;
+  vertical-align: middle;
+}
 
 /* Wrapper for the scrolling text */
 .marquee_wrapper {
@@ -111,6 +116,7 @@
   font-weight: 600; /* Match h1 weight */
   margin-right: 40px; /* Increased space between text instances for clarity */
   color: white;
+  /* margin-top: -10px; */
   text-transform: capitalize;
 }
 
@@ -124,9 +130,11 @@
   }
 }
 
+
+
 /* Scroll Down Button */
 .home_container .title .scroll-down {
-  margin-top: 40px;
+  margin-top: 140px;
   display: flex;
   justify-content: center;
   z-index: 2;
@@ -137,18 +145,28 @@
   border: none;
   cursor: pointer;
   padding: 10px;
-  font-size: 30px; /* Larger icon for better visibility */
+  font-size: 20px; /* Larger icon for better visibility */
   color: var(--white);
   transition: color 0.3s ease-in-out;
+
 }
 
 .home_container .title .scroll-down button:hover {
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .home_container .title .scroll-down i {
   animation: bounce 1.5s infinite; /* Faster and infinite bounce */
+  border: 2px solid var(--white);
+  border-radius: 15px;
+  padding: 13px 10px;
 }
+.home_container .title .scroll-down i:hover {
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  transition: color 0.3s ease-in-out;
+}
+
 
 /* Bouncing Animation Keyframes */
 @keyframes bounce {

@@ -15,7 +15,7 @@
         <!-- Scroll Down Button -->
         <div class="scroll-down">
           <button @click="scrollToNextSection" aria-label="Scroll to next section">
-            <i class="fas fa-chevron-down"></i>
+            <i class="fas fa-down-long"></i>
           </button>
         </div>
       </div>
@@ -24,20 +24,34 @@
     <div class="marquee_container" id="next-section">
       <div class="marquee_wrapper">
         <h1 class="marquee_txt">
-          Love your neighbor as yourself <i class="fas fa-star"></i>
-          Love your neighbor as yourself <i class="fas fa-star"></i>
-          Love your neighbor as yourself <i class="fas fa-star"></i>
-          Love your neighbor as yourself <i class="fas fa-star"></i>
-          Love your neighbor as yourself <i class="fas fa-star"></i>
-          Love your neighbor as yourself <i class="fas fa-star"></i>
+         <span> <img src="../assets/images/icon-sparkles.svg" alt=""> </span> Love your neighbor as yourself <span> <img src="../assets/images/icon-sparkles.svg" alt=""> </span>
         </h1>
+        <h1 class="marquee_txt">
+         <span> <img src="../assets/images/icon-sparkles.svg" alt=""> </span> Love your neighbor as yourself <span> <img src="../assets/images/icon-sparkles.svg" alt=""> </span>
+        </h1>
+        <h1 class="marquee_txt">
+         <span> <img src="../assets/images/icon-sparkles.svg" alt=""> </span> Love your neighbor as yourself <span> <img src="../assets/images/icon-sparkles.svg" alt=""> </span>
+        </h1>
+        <h1 class="marquee_txt">
+         <span> <img src="../assets/images/icon-sparkles.svg" alt=""> </span> Love your neighbor as yourself <span> <img src="../assets/images/icon-sparkles.svg" alt=""> </span>
+        </h1>
+        <h1 class="marquee_txt">
+         <span> <img src="../assets/images/icon-sparkles.svg" alt=""> </span> Love your neighbor as yourself <span> <img src="../assets/images/icon-sparkles.svg" alt=""> </span>
+        </h1>
+        
+
       </div>
     </div>
+    <about-us></about-us>
   </div>
 </template>
 
 <script>
+import aboutUs from '../components/about.vue';
 export default {
+  components: {
+    aboutUs
+  },
   methods: {
     scrollToNextSection() {
       const nextSection = document.getElementById('next-section');

@@ -94,7 +94,7 @@
   overflow: hidden; /* Hide text that moves out of the container */
   white-space: nowrap; /* Prevent text wrapping */
   background-color: var(--primary-color); /* Optional: light background for visibility */
-  padding: 30px 0; /* Vertical padding for aesthetics */
+  padding: 25px 0; /* Vertical padding for aesthetics */
 
 }
 

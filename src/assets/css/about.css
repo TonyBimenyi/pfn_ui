@@ -1,0 +1,52 @@
+.about_container{
+    
+    display: flex;
+    justify-content: center;
+    margin: 50px 250px;
+    gap: 50px;
+}
+.left_part .img1 img{
+    height: 400px;
+}
+.left_part .img2 img{
+    height: 400px;
+}
+    /* Container for text and icon */
+    .text-icon-container {
+        display: flex;
+        align-items: center;
+        gap: 10px; /* Space between text and icon */
+        font-family: Arial, sans-serif;
+        font-size: 18px;
+        color: #333;
+        /* padding: 20px; */
+        justify-content: flex-start;
+      }
+  
+      /* Text styling */
+      .text-icon-container span {
+        font-weight: 500;
+      }
+  
+      /* Icon styling */
+      .text-icon-container i {
+        font-size: 20px;
+        color: #007bff; /* Blue color for the icon */
+        transition: color 0.3s ease;
+      }
+  
+      /* Hover effect for icon */
+      .text-icon-container i:hover {
+        color: #0056b3; /* Darker blue on hover */
+      }
+      .title_about{
+        font-size: 50px;
+        font-weight: 800;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        margin-top: 30px;
+        /* color: var(--primary---); */
+      }
+      .title_about span{
+        color: var(--primary-color);
+      }
